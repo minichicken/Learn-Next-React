@@ -1,5 +1,6 @@
 "use strict";
 const path = require('path');
+const webpackNodeExternals = require('webpack-node-externals');
 
 const defaultConfig = {
     devtool: 'inline-source-map',
@@ -18,11 +19,13 @@ const defaultConfig = {
     output: {
         filename: '[name].js',
         path: path.resolve(__dirname, 'dist')
-    }
+    },
+    externals: [webpackNodeExternals()]
 };
 
 const nodeConfig = {
     entry: { node: './src/index.ts' },
+    target: 'node',
     ...defaultConfig
 };
 
