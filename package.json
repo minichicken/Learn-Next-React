@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/minichicken/learn-next-react/issues"
   },
-  "homepage": "https://github.com/minichicken/learn-next-react#readme"
+  "homepage": "https://github.com/minichicken/learn-next-react#readme",
+  "devDependencies": {
+    "@types/node": "^10.11.4",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
 }
