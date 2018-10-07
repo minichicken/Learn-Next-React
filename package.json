@@ -1,0 +1,25 @@
+{
+  "name": "learnreactwithnext",
+  "version": "1.0.0",
+  "description": "learn reactjs with server side renderer nextjs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minichicken/learn-next-react.git"
+  },
+  "keywords": [
+    "nodejs",
+    "reactjs",
+    "nextjs",
+    "express"
+  ],
+  "author": "Jaeho Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minichicken/learn-next-react/issues"
+  },
+  "homepage": "https://github.com/minichicken/learn-next-react#readme"
+}
